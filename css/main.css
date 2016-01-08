@@ -1,0 +1,255 @@
+section#banner{
+	width: 100%;
+	background-image: url(../img/fondo5.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+	z-index: 800;
+}
+nav{
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+	-moz-transition: margin-left .5s;
+	transition: margin-left .5s;
+	background-color: transparent!important;
+	border-color: transparent!important;
+	font-family: 'Glass Antiqua', cursive;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 22px;
+	font-weight: bold;
+	color:rgba(255,255,255,0.7);
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:rgba(255,255,255,1);
+	background-color: #F95A61;
+}
+img#logo{
+	margin-top: 150px;
+	width: 656px;
+	height: 157px;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+	-moz-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+	transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+#body{
+	width: 100%;
+	height: 500px;
+}
+/*mi codigo*/
+h3{
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 30px;
+	color: #F95A61;
+}
+
+p,
+h4
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+.f-c{
+	color: #fff;
+}
+.p-20-0{
+	padding: 20px 0px;
+}
+.p-30-0{
+	padding-bottom: 60px;
+}
+.video-test{
+	width: 100%!important;
+	position:absolute;
+	z-index: 1;
+	/*display: block;*/
+	/*height: 500px;*/
+}
+.container-top{
+	position: relative;
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+	background: transparent;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: rgba(0,0,0, 0.5);
+	z-index: 2;
+}
+.container-top .text-hero{
+	position: absolute;
+	z-index: 20;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding-top: 120px;
+}
+.container-top .text-hero h2{
+	text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+	font-size: 90px;	
+}
+.conten-about{
+	width: 100%;
+	display: block;
+}
+.contact-links{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.contact-links li a{
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+.contact-links li{
+	list-style: none;
+	display: inline-block;
+}
+.contact-links li a i{
+	font-size: 35px;
+	margin-right: 5px;
+}
+.contact-links li a span{
+	line-height: 35px;
+}
+.btn-pink:hover{
+	background-color: #F95A61;
+	border-color: #fff;
+	color: #fff;
+}
+.btn-pink{
+	margin: 25px;
+	color: #F95A61;
+	font-size: 20px;
+}
+/*Sobre Mi*/
+.conten-about{
+	padding-bottom: 30px;
+}
+.content-about .me{
+	border: 1px dashed #FF0F46;
+	padding: 50px;
+}
+.content-about .dsp{
+	margin-top: 30px;
+}
+#profile{
+	height: 320px;
+}
+/*Portafolio*/
+.content-portfolio{
+	/*padding: 20px 0;*/
+}
+.content-portfolio .portfolio-item{
+	background-color: #fff;
+	/*border: 1px solid #ccc;*/
+	margin: 10px;
+	padding: 22px;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+}
+.content-portfolio .portfolio-item img{
+	width: 100%;
+}
+.content-portfolio .nav{
+	display: inline-block;
+}
+.content-portfolio .botones .btn{
+	margin-bottom: 10px;
+}
+.content-portfolio .portfolio-item{
+	border-top-right-radius: 0.5em;
+}
+.content-portfolio .portfolio-item h4{
+	font-weight: bold;
+}
+
+.portfolio-item img{
+	-webkit-transition: all 0.6s ease; /* Safari and Chrome */
+    -moz-transition: all 0.6s ease; /* Firefox */
+    -ms-transition: all 0.6s ease; /* IE 9 */
+    -o-transition: all 0.6s ease; /* Opera */
+    transition: all 0.6s ease;
+}
+.portfolio-item:hover img {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+
+/*Habilidades*/
+.content-habilidades .icon{
+	font-size: 150px;
+	text-align: center;
+	color: #B5B5BF;
+}
+.content-habilidades i:hover{
+	color: #F7C0C2;
+	transition: all 0.3s;
+}
+.content-habilidades p{
+	font-size: 17px;
+}
+/*Contacto*/
+.content-contact{
+	background-color: #F2F1F1;
+}
+.content-contact .contact-links i{
+	list-style: none;
+	display: inline-block;
+	color: #B5B5BF;
+	font-size: 60px;
+}
+.content-contact .contact-links ul{
+	text-align: center;
+}
+.content-contact .contact-links li{
+	padding: 10px;
+}
+
+/*Footer*/
+footer{
+	background-color: #EAE5DD;
+	border-color: #fff;
+	padding: 9px;
+}
+footer p{
+	color: #F95A61;
+	padding-top: 5px;
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 18px;
+}
+@media screen and (max-width: 990px) {
+    .container-top {
+        background: url(../img/fondo6.jpg) no-repeat;
+		background-size: cover;
+    }
+}
+.parallax-window {
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.3);
+    /*background: rgba(179, 84, 85, 0.3);*/
+}
+#FF0F46
+#F95A61
+
