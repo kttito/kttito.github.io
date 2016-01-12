@@ -18,9 +18,9 @@
   <link href='https://fonts.googleapis.com/css?family=Lobster|Gloria+Hallelujah|Josefin+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Glass+Antiqua' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="85">
   <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="navbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -36,13 +36,11 @@
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#portfolio">Trabajos</a></li>
           </ul>
-            
-            <img id='logo' src='img/logo.png' class="hidden-xs hidden-sm">
-
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
+          <img id='logo' src='img/logo.png' class="hidden-xs hidden-sm">
         </div>
       </div>
     </nav>
@@ -82,8 +80,8 @@
       </div>
     </div>
   </div>
-  <div class="parallax-window p-20-0" data-parallax="scroll" data-image-src="img/fondo6.jpg">
-    <div id="portfolio" class="content-portfolio text-center p-20-0">
+  <div id="portfolio" class="parallax-window p-20-0" data-parallax="scroll" data-image-src="img/fondo6.jpg">
+    <div class="content-portfolio text-center p-20-0">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

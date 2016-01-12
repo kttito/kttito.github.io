@@ -22,6 +22,7 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$(window).scroll();
 	$( "#logo" ).hover(
 	  function() {
 	  	if($(this).attr('src')=='img/logo.png'){
@@ -52,4 +53,15 @@ $(document).ready(function(){
 	  	}
 	  }
 	);//borrarrrrr
+
+
+
+	$('.navbar-nav a').click(function(e){
+		var target = $(this).attr('href');
+		var offset = $(target).offset().top-$('header').height();
+		$('html, body').animate({
+			scrollTop:offset
+		},1000);
+		e.preventDefault();
+	});
 });
